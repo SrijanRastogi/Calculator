@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="index.js" defer></script>
 </head>
 <body>
+    <header>
+        <h1>A JavaScript calculator</h1>
+    </header>
+
     <div class = "Box">
         <output class = "result"></output>
             
@@ -21,6 +26,7 @@
             <button>7</button>
             <button>8</button>
             <button>9</button>
+            <button>.</button>
         </div>
         <div class = "operators">
             <button>+</button>
@@ -29,8 +35,18 @@
             <button>/</button>
             <button class = "equals">=</button>
             <button class = "clear">Clear</button>
+            <button class = "backspace ">Backspace</button>
         </div>
     </div>
-
+    
+    <div class="keyboard-info">
+        <p>Keyboard Support: <b>Enter</b> / <b>=</b> for Equal</p>
+        <p><b>Esc</b> for Clear &nbsp; | &nbsp; <b>Backspace</b> for Delete</p>
+    </div>
+    
+    <footer>
+        <p>Built with HTML, CSS & JavaScript</p>
+        <p>© 2026 Srijan Rastogi. All rights reserved.</p>
+    </footer>
 </body>
 </html>
