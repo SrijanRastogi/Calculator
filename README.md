@@ -1,6 +1,6 @@
 # JavaScript Calculator
 
-A fully functional calculator built as part of [The Odin Project](https://www.theodinproject.com/) JavaScript curriculum.
+A fully functional calculator built as part of [The Odin Project](https://www.theodinproject.com/) JavaScript course.
 
 The project focuses on using JavaScript to manipulate the DOM, handle user events, manage application state, and build a functional interactive UI.
 
@@ -22,14 +22,14 @@ The project focuses on using JavaScript to manipulate the DOM, handle user event
 - Prevents repeated `=` calculations
 - Handles incomplete calculations safely
 - Starts a new calculation when entering a number after a completed result
-- Keyboard support
+- Keyboard support:
   - `0–9` → Numbers
   - `.` → Decimal
   - `+`, `-`, `*`, `/` → Operators
   - `Enter` / `=` → Calculate
   - `Escape` → Clear
   - `Backspace` → Delete
-- Responsive and styled calculator interface
+- Styled calculator interface
 
 ## Built With
 
@@ -45,8 +45,18 @@ calculator/
 ├── index.html
 ├── index.js
 ├── styles.css
+├── screenshot1.png
 └── README.md
+```
 
 ## Screenshot
 
 ![JavaScript Calculator](./screenshot1.png)
+
+## Credits
+
+Built by **Srijan Rastogi** as part of [The Odin Project](https://www.theodinproject.com/) JavaScript course.
+
+## License
+
+This project was created for educational purposes.
